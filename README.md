@@ -13,12 +13,12 @@ pip3 install discord-to-postgresql
 
 ### Run with postgresql credentials as arguments
 ```
-python3 discord_to_postgresql data/package.zip replace myusername mypassword 0.0.0.0 5432 postgres
+discord_to_postgresql data/package.zip replace myusername mypassword 0.0.0.0 5432 postgres
 ```
 
 ### Run with textfile containing PostgreSQL connection URL specified as argument
 ```
-python3 discord_to_postgresql path/to/package.zip replace -t path/to/conn_url.txt
+discord_to_postgresql path/to/package.zip replace -t path/to/conn_url.txt
 ```
 #### Sample contents of textfile
 ```
