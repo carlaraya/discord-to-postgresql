@@ -112,3 +112,8 @@ To delete the container (and erase all db data):
 docker rm test-postgres
 ```
 after which it is completely fine to run the above-mentioned `docker run` command again.
+
+TODO
+- [ ] Test for other versions of Python
+- [ ] Test for Windows
+- [ ] Add support for primary keys (no duplicate rows if append)
