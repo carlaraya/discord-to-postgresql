@@ -2,7 +2,7 @@
 
 Imports Discord messages archive to PostgreSQL database.
 
-Tested in a Linux installation of Python 3.9. May also work for Python 3.6, 3.7, 3.8 but not 3.10.
+Tested in Python 3.7, 3.8, and 3.9 on Linux and Windows.
 
 ## Installation
 ```
@@ -13,7 +13,7 @@ pip3 install discord-to-postgresql
 
 ### Run with postgresql credentials as arguments
 ```
-discord_to_postgresql data/package.zip replace myusername mypassword 0.0.0.0 5432 postgres
+discord_to_postgresql path/to/package.zip replace myusername mypassword 0.0.0.0 5432 postgres
 ```
 
 ### Run with textfile containing PostgreSQL connection URL specified as argument
@@ -112,3 +112,5 @@ To delete the container (and erase all db data):
 docker rm test-postgres
 ```
 after which it is completely fine to run the above-mentioned `docker run` command again.
+
+Heroku Postgres (free cloud server) is another option but has a maximum row number limit.
