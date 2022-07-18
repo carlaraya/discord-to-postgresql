@@ -114,3 +114,8 @@ docker rm test-postgres
 after which it is completely fine to run the above-mentioned `docker run` command again.
 
 Heroku Postgres (free cloud server) is another option but has a maximum row number limit.
+
+## TODO
+- [ ] Test for other versions of Python
+- [ ] Test for Windows
+- [ ] Add support for primary keys (no duplicate rows if append)
