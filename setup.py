@@ -5,7 +5,7 @@ long_description = (Path(__file__).parent / 'README.md').read_text('utf-8') #.sp
 
 setup(
     name='discord-to-postgresql',
-    version='0.1.1',
+    version='0.1.2',
     description='Imports Discord messages archive to PostgreSQL database',
     long_description=long_description,
     long_description_content_type='text/markdown',
